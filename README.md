@@ -5,6 +5,7 @@ This is a group project between Naomi, Dani, Gurleen, and Zeynep as part of the 
 ## Description
 
 This code extracts all entries within the Cambridge Structural Database (CSD), filters using Lipinski's Rule of 5, and outputs a subset of predicted drug-like molecules. \n
+
 The aim of this project is to provide a comprehensive dataset of experimentally-determined ligand-bound crystal structures to accelerate hit-to-lead discovery, reduce costs,
 and reduce drug attrition rates. 
 
@@ -37,10 +38,14 @@ command to run if program contains helper info
 
 ## Authors
 
-Zeynep Baykam- zeynep.baykam@gtc.ox.ac.uk \n
-Naomi Costello- naomi.costello@linacre.ox.ac.uk \n
-Gurleen Kaur- gurleen.kaur@lincoln.ox.ac.uk \n
-Dani Taverner- daniela.taverner@seh.ox.ac.uk \n
+Zeynep Baykam- zeynep.baykam@gtc.ox.ac.uk 
+
+Naomi Costello- naomi.costello@linacre.ox.ac.uk 
+
+Gurleen Kaur- gurleen.kaur@lincoln.ox.ac.uk 
+
+Dani Taverner- daniela.taverner@seh.ox.ac.uk 
+
 
 ## Version History
 
