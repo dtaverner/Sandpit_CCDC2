@@ -1,10 +1,12 @@
-# Project Title
+# Creation of a new drug-like subset of the Cambridge Structural Database
 
-Simple overview of use/purpose.
+This is a group project between Naomi, Dani, Gurleen, and Zeynep as part of the Sandpit Team Project within the ILESLA DPhil at the University of Oxford, in collaboration with the Cambridge Crystallographic Data Centre (CCDC).
 
 ## Description
 
-An in-depth paragraph about your project and overview of use.
+This code extracts all entries within the Cambridge Structural Database (CSD), filters using Lipinski's Rule of 5, and outputs a subset of predicted drug-like molecules.
+The aim of this project is to provide a comprehensive dataset of experimentally-determined ligand-bound crystal structures to accelerate hit-to-lead discovery, reduce costs,
+and reduce drug attrition rates. 
 
 ## Getting Started
 
@@ -35,10 +37,10 @@ command to run if program contains helper info
 
 ## Authors
 
-Contributors names and contact info
-
-ex. Dominique Pizzie  
-ex. [@DomPizzie](https://twitter.com/dompizzie)
+Zeynep Baykam- zeynep.baykam@gtc.ox.ac.uk
+Naomi Costello- naomi.costello@linacre.ox.ac.uk
+Gurleen Kaur- gurleen.kaur@lincoln.ox.ac.uk
+Dani Taverner- daniela.taverner@seh.ox.ac.uk
 
 ## Version History
 
