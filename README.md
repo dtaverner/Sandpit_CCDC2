@@ -4,22 +4,23 @@ This is a group project between Naomi, Dani, Gurleen, and Zeynep as part of the 
 
 ## Description
 
-This code extracts all entries within the Cambridge Structural Database (CSD), filters using Lipinski's Rule of 5, and outputs a subset of predicted drug-like molecules. \n
+The aim of this project is to provide a comprehensive dataset of ligand-bound crystal structures that are most drug-like. This will provide a thorough starting point in the design of novel drugs as the synthesisability requirement of designed small molecules is already met and with structural biology being critical to the drug discovery process, this dataset will help to overcome this financially and temporally expensive aspect. Overall, this dataset will enable the acceleration of hit-to-lead discovery, lessening of costs, and reduction of drug attrition rates. 
 
-The aim of this project is to provide a comprehensive dataset of experimentally-determined ligand-bound crystal structures to accelerate hit-to-lead discovery, reduce costs,
-and reduce drug attrition rates. 
+This first part of this code extracts the entire Cambridge Structural Database (CSD) of 1,413,222 entries, filters using Lipinski's Rule of 5, and outputs a subset of predicted drug-like molecules.
 
 ## Getting Started
 
 ### Dependencies
 
-* Describe any prerequisites, libraries, OS version, etc., needed before installing program.
-* ex. Windows 10
+This code has been written for Python. 
+
+Prior to running the code, a licence to use the CSD must be obtained. Contact your institution or the CCDC here https://www.ccdc.cam.ac.uk/ .
 
 ### Installing
 
-* How/where to download your program
-* Any modifications needed to be made to files/folders
+In order to handle this dataset, a Python API must be installed in a relevant environment using conda. 
+
+Install the following packages(libraries): io(ccdc), Path(pathlib), Chem(rdkit), pandas, matplotlib.pyplot, venn(venn), upsetplot
 
 ### Executing program
 
@@ -27,16 +28,13 @@ and reduce drug attrition rates.
 * Step-by-step bullets
 ```
 code blocks for commands
-```
 
-## Help
-
-Any advise for common problems or issues.
 ```
-command to run if program contains helper info
-```
+## Contributors
 
-## Authors
+This project was carried out by Zeynep Baykam, Naomi Costello, Gurleen Kaur, and Dani Taverner at the University of Oxford. Assistance and guidance was provided by Alexander Hasson at the Oxford Protein Informatics Group and Jasmeen Tatani at the Department of Atmospheric, Oceanic, and Planetary Physics, University of Oxford. Project proposed and supervised by Diana Kondinskaia and Bojana Popovic at the CCDC.
+
+## Contact Information
 
 Zeynep Baykam- zeynep.baykam@gtc.ox.ac.uk 
 
@@ -45,25 +43,3 @@ Naomi Costello- naomi.costello@linacre.ox.ac.uk
 Gurleen Kaur- gurleen.kaur@lincoln.ox.ac.uk 
 
 Dani Taverner- daniela.taverner@seh.ox.ac.uk 
-
-
-## Version History
-
-* 0.2
-    * Various bug fixes and optimizations
-    * See [commit change]() or See [release history]()
-* 0.1
-    * Initial Release
-
-## License
-
-This project is licensed under the [NAME HERE] License - see the LICENSE.md file for details
-
-## Acknowledgments
-
-Inspiration, code snippets, etc.
-* [awesome-readme](https://github.com/matiassingers/awesome-readme)
-* [PurpleBooth](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2)
-* [dbader](https://github.com/dbader/readme-template)
-* [zenorocha](https://gist.github.com/zenorocha/4526327)
-* [fvcproductions](https://gist.github.com/fvcproductions/1bfc2d4aecb01a834b46)
