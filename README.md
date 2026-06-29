@@ -1,4 +1,4 @@
-# Drug-Like Subset of the Cambridge Structural Database
+# Drug-Like Subset of the Cambridge Structural Database (CSD)
 
 ## About
 
@@ -9,7 +9,7 @@ This is a group project between Naomi, Dani, Gurleen, and Zeynep as part of the 
 - [Description](#description)
 - [Code Architecture](#code-architecture)
 - [Dependencies](#dependencies)
-- [Installing](#installing)
+- [Installation](#installation)
 - [Executing the Programme](#executing-the-programme)
 - [Contributors](#contributors)
 - [Contact Information](#contact-information)
@@ -36,7 +36,7 @@ This code has been written for Python.
 
 Prior to running the code, a licence to use the CSD must be obtained. Contact your institution or the CCDC here https://www.ccdc.cam.ac.uk/ .
 
-## Installing
+## Installation
 
 In order to handle this dataset, the CSD Python API must be installed in a relevant environment using conda. 
 
@@ -52,7 +52,7 @@ code blocks for commands
 ```
 ## Contributors
 
-This project was carried out by Zeynep Baykam, Naomi Costello, Gurleen Kaur, and Dani Taverner at the University of Oxford. Assistance and guidance was provided by Alexander Hasson at the Oxford Protein Informatics Group and Jasmeen Tatani at the Department of Atmospheric, Oceanic, and Planetary Physics, University of Oxford. The project was proposed and supervised by Diana Kondinskaia and Bojana Popovic at the CCDC.
+This project was carried out by Zeynep Baykam, Naomi Costello, Gurleen Kaur, and Dani Taverner at the University of Oxford. Assistance and guidance was provided by Alexander Hasson at the Oxford Protein Informatics Group and Jasmeen Tatani at the Department of Atmospheric, Oceanic, and Planetary Physics, University of Oxford. The project was proposed and supervised by Dr Diana Kondinskaia and Dr Bojana Popovic at the CCDC.
 
 ## Contact Information
 
