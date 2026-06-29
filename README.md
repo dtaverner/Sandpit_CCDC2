@@ -59,7 +59,7 @@ drug_reader = io.EntryReader(subset=io.Subsets.DRUG)
 ```
 + To extract the entire CSD:
 ```
-code blocks for commands
+reader = io.EntryReader('CSD')
 
 ```
 ## Contributors
