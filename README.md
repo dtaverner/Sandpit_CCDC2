@@ -54,12 +54,12 @@ Install the following packages in the relevant environment: rdkit, venn, upsetpl
 ### How to Extract CSD Entries and Calculate Physicochemical Properties
 + To extract the Drug Subset of the CSD (a compilation of every published crystal structure containing an approved drug molecule)<sup>1:
 ```
-drug_reader = io.EntryReader(subset=io.Subsets.DRUG)
+io.EntryReader(subset=io.Subsets.DRUG)
 
 ```
 + To extract the entire CSD:
 ```
-reader = io.EntryReader('CSD')
+io.EntryReader('CSD')
 
 ```
 ## Contributors
