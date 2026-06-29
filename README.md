@@ -29,15 +29,13 @@ Overall, this dataset will assist with the acceleration of hit-to-lead discovery
 
 ## Code Architecture
 
-The first part of the code
+The first part of the code calculates physicochemical properties (including hydrogen bond acceptor count (HBA), calculates hydrogen bond donor count (HBD), Wildman-Crippen logP (logP), and molecular weight (MW)) from the molecule object using rdkit. 
 
-The second part of the code extracts the entire CSD, calculates hydrogen bond acceptor count (HBA), calculates hydrogen bond donor count (HBD), Wildman-Crippen logP (logP), and molecular weight (MW).
+The entries for which physicochemical properties are unable to be calculated are then investigated.
 
-The entries for which physicochemical properties are unable to be calculated are then investigated 
+Filters based on Lipinski's Rule of 5 are applied, and a subset of predicted drug-like molecules are outputted as a csv and gcd file.
 
-Filters based on Lipinski's Rule of 5 are applied to the entire CSD, and a subset of predicted drug-like molecules are outputted as a csv and gcd file.
-
-The resulting dataset is analysed, with 
+The resulting dataset is analysed, with results visualised as histograms, a Venn diagram, and an UpSet plot. 
 
 ## Dependencies
 
