@@ -28,7 +28,7 @@ Overall, this dataset will assist with the acceleration of hit-to-lead discovery
 
 The first part of this code extracts the entire Cambridge Structural Database (CSD) of 1,413,222 entries, filters using Lipinski's Rule of 5, and outputs a subset of predicted drug-like molecules.
 
-## Code Archtiecture
+## Code Architecture
 
 ## Dependencies
 
