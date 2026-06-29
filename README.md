@@ -1,30 +1,48 @@
-# Creation of a new drug-like subset of the Cambridge Structural Database
+# Drug-Like Subset of the Cambridge Structural Database
+
+## About
 
 This is a group project between Naomi, Dani, Gurleen, and Zeynep as part of the Sandpit Team Project within the ILESLA DPhil at the University of Oxford, in collaboration with the Cambridge Crystallographic Data Centre (CCDC).
+
+## Table of Contents
+
+- [Description]
+- [Code Architecture]
+- [Dependencies]
+- [Installing]
+- [Executing the Programme]
+- [Contributors]
+- [Contact Information]
 
 ## Description
 
 The discovery and subsequent delivery of a novel drug to market is extremely expensive and laborious, with pipelines taking on average 15 years and costing $2 billion. Computational methods, like virtual ligand screening, have been developed to redcue attrition rates in drug discovery campaigns but these are often limited by the synthetic inaccessibility of proposed compounds, the physically unrealistic binding poses, or the incompatibility of their physicochemical properties with human physiology. 
 
-The aim of this project is to provide a comprehensive dataset of compound crystal structures that are 'drug-like'. By stratifying the Cambridge Structural Database based on common properties observed in FDA approved drugs, proposed small molecule drug candidates can be evaluated for their synthetic feasibility, binding modes, and predicted bioavailability to increase the hit rate in initial small molecule screens. Overall, this dataset will assist with the acceleration of hit-to-lead discovery, lessening of costs, and reduction of drug attrition rates. 
+The aim of this project is to provide a comprehensive dataset of compound crystal structures that are 'drug-like'. By stratifying the Cambridge Structural Database based on common properties observed in FDA approved drugs, this code aims to assist drug discovery teams by allowing for proposed small molecule drug candidates to be analysed through the: 
+
++ Evaluation of synthetic feasibility
++ Assessment of ligand binding modes
++ Improvement of predicted bioavailability
+
+Overall, this dataset will assist with the acceleration of hit-to-lead discovery, lessening of costs, and reduction of drug attrition rates. 
 
 The first part of this code extracts the entire Cambridge Structural Database (CSD) of 1,413,222 entries, filters using Lipinski's Rule of 5, and outputs a subset of predicted drug-like molecules.
 
-## Getting Started
+## Code Archtiecture
 
-### Dependencies
+## Dependencies
 
 This code has been written for Python. 
 
 Prior to running the code, a licence to use the CSD must be obtained. Contact your institution or the CCDC here https://www.ccdc.cam.ac.uk/ .
 
-### Installing
+## Installing
 
 In order to handle this dataset, the CSD Python API must be installed in a relevant environment using conda. 
 
 Install the following packages(libraries): io(ccdc), Path(pathlib), Chem(rdkit), pandas, matplotlib.pyplot, venn(venn), upsetplot
 
-### Executing program
+## Executing the Programme
 
 * How to run the program
 * Step-by-step bullets
