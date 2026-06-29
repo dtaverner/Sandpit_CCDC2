@@ -4,9 +4,11 @@ This is a group project between Naomi, Dani, Gurleen, and Zeynep as part of the 
 
 ## Description
 
-The aim of this project is to provide a comprehensive dataset of ligand-bound crystal structures that are most drug-like. This will provide a thorough starting point in the design of novel drugs as the synthesisability requirement of designed small molecules is already met and with structural biology being critical to the drug discovery process, this dataset will help to overcome this financially and temporally expensive aspect. Overall, this dataset will enable the acceleration of hit-to-lead discovery, lessening of costs, and reduction of drug attrition rates. 
+The discovery and subsequent delivery of a novel drug to market is extremely expensive and laborious, with pipelines taking on average 15 years and costing $2 billion. Computational methods, like virtual ligand screening, have been developed to redcue attrition rates in drug discovery campaigns but these are often limited by the synthetic inaccessibility of proposed compounds, the physically unrealistic binding poses, or the incompatibility of their physicochemical properties with human physiology. 
 
-This first part of this code extracts the entire Cambridge Structural Database (CSD) of 1,413,222 entries, filters using Lipinski's Rule of 5, and outputs a subset of predicted drug-like molecules.
+The aim of this project is to provide a comprehensive dataset of compound crystal structures that are 'drug-like'. By stratifying the Cambridge Structural Database based on common properties observed in FDA approved drugs, proposed small molecule drug candidates can be evaluated for their synthetic feasibility, binding modes, and predicted bioavailability to increase the hit rate in initial small molecule screens. Overall, this dataset will assist with the acceleration of hit-to-lead discovery, lessening of costs, and reduction of drug attrition rates. 
+
+The first part of this code extracts the entire Cambridge Structural Database (CSD) of 1,413,222 entries, filters using Lipinski's Rule of 5, and outputs a subset of predicted drug-like molecules.
 
 ## Getting Started
 
@@ -18,7 +20,7 @@ Prior to running the code, a licence to use the CSD must be obtained. Contact yo
 
 ### Installing
 
-In order to handle this dataset, a Python API must be installed in a relevant environment using conda. 
+In order to handle this dataset, the CSD Python API must be installed in a relevant environment using conda. 
 
 Install the following packages(libraries): io(ccdc), Path(pathlib), Chem(rdkit), pandas, matplotlib.pyplot, venn(venn), upsetplot
 
@@ -32,7 +34,7 @@ code blocks for commands
 ```
 ## Contributors
 
-This project was carried out by Zeynep Baykam, Naomi Costello, Gurleen Kaur, and Dani Taverner at the University of Oxford. Assistance and guidance was provided by Alexander Hasson at the Oxford Protein Informatics Group and Jasmeen Tatani at the Department of Atmospheric, Oceanic, and Planetary Physics, University of Oxford. Project proposed and supervised by Diana Kondinskaia and Bojana Popovic at the CCDC.
+This project was carried out by Zeynep Baykam, Naomi Costello, Gurleen Kaur, and Dani Taverner at the University of Oxford. Assistance and guidance was provided by Alexander Hasson at the Oxford Protein Informatics Group and Jasmeen Tatani at the Department of Atmospheric, Oceanic, and Planetary Physics, University of Oxford. The project was proposed and supervised by Diana Kondinskaia and Bojana Popovic at the CCDC.
 
 ## Contact Information
 
