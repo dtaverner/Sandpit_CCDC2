@@ -28,7 +28,15 @@ Overall, this dataset will assist with the acceleration of hit-to-lead discovery
 
 ## Code Architecture
 
-The first part of this code extracts the entire Cambridge Structural Database (CSD) of 1,413,222 entries, filters using Lipinski's Rule of 5, and outputs a subset of predicted drug-like molecules.
+The first part of the code
+
+The second part of the code extracts the entire CSD, calculates hydrogen bond acceptor count (HBA), calculates hydrogen bond donor count (HBD), Wildman-Crippen logP (logP), and molecular weight (MW).
+
+The entries for which physicochemical properties are unable to be calculated are then investigated 
+
+Filters based on Lipinski's Rule of 5 are applied to the entire CSD, and a subset of predicted drug-like molecules are outputted as a csv and gcd file.
+
+The resulting dataset is analysed, with 
 
 ## Dependencies
 
@@ -44,7 +52,7 @@ Install the following packages in the relevant environment: rdkit, venn, upsetpl
 
 ## Executing the Programme
 
-* How to run the program
+### How to Extract CSD Entries and Calculate Physicochemical Properties
 * Step-by-step bullets
 ```
 code blocks for commands
