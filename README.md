@@ -26,9 +26,9 @@ The aim of this project is to provide a comprehensive dataset of compound crysta
 
 Overall, this dataset will assist with the acceleration of hit-to-lead discovery, lessening of costs, and reduction of drug attrition rates. 
 
-The first part of this code extracts the entire Cambridge Structural Database (CSD) of 1,413,222 entries, filters using Lipinski's Rule of 5, and outputs a subset of predicted drug-like molecules.
-
 ## Code Architecture
+
+The first part of this code extracts the entire Cambridge Structural Database (CSD) of 1,413,222 entries, filters using Lipinski's Rule of 5, and outputs a subset of predicted drug-like molecules.
 
 ## Dependencies
 
@@ -40,7 +40,7 @@ Prior to running the code, a licence to use the CSD must be obtained. Contact yo
 
 In order to handle this dataset, the CSD Python API must be installed in a relevant environment using conda. 
 
-Install the following packages(libraries): io(ccdc), Path(pathlib), Chem(rdkit), pandas, matplotlib.pyplot, venn(venn), upsetplot
+Install the following packages in the relevant environment: rdkit, venn, upsetplot
 
 ## Executing the Programme
 
