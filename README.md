@@ -6,13 +6,13 @@ This is a group project between Naomi, Dani, Gurleen, and Zeynep as part of the 
 
 ## Table of Contents
 
-- [Description]
-- [Code Architecture]
-- [Dependencies]
-- [Installing]
-- [Executing the Programme]
-- [Contributors]
-- [Contact Information]
+- [Description](#description)
+- [Code Architecture](#code-architecture)
+- [Dependencies](#dependencies)
+- [Installing](#installing)
+- [Executing the Programme](#executing-the-programme)
+- [Contributors](#contributors)
+- [Contact Information](#contact-information)
 
 ## Description
 
