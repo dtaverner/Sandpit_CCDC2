@@ -64,7 +64,7 @@ io.EntryReader('CSD')
 ```
 ## Contributors
 
-This project was carried out by Zeynep Baykam, Naomi Costello, Gurleen Kaur, and Dani Taverner at the University of Oxford. Assistance and guidance was provided by Alexander Hasson at the Oxford Protein Informatics Group and Jasmeen Tatani at the Department of Atmospheric, Oceanic, and Planetary Physics, University of Oxford. The project was proposed and supervised by Dr Diana Kondinskaia and Dr Bojana Popovic at the CCDC.
+This project was carried out by Zeynep Baykam, Naomi Costello, Gurleen Kaur, and Dani Taverner at the University of Oxford. Assistance and guidance was provided by Alexander Hasson at the Oxford Protein Informatics Group and Jasmeen Tatani at the Department of Atmospheric, Oceanic, and Planetary Physics, University of Oxford. The project was proposed and supervised by Diana Kondinskaia and Dr Bojana Popovic at the CCDC.
 
 ## Contact Information
 
