@@ -31,13 +31,13 @@ Overall, this dataset will assist with the acceleration of hit-to-lead discovery
 
 <img width="534" height="581" alt="Flow Chart README" src="https://github.com/user-attachments/assets/2a6d60ae-0a63-4c72-845f-5fd67e485400" />
 
-The first part of the code calculates physicochemical properties (including hydrogen bond acceptor count (HBA), calculates hydrogen bond donor count (HBD), Wildman-Crippen logP (logP), and molecular weight (MW)) from the molecule object using rdkit. 
+The first part of the code requires the user to select what dataset to extract from the CCDC by uncommenting/commenting the relevant lines of code. The code has been written so no other user input is required. 
 
-The entries for which physicochemical properties are unable to be calculated are then investigated.
-
-Filters based on Lipinski's Rule of 5 are applied, and a subset of predicted drug-like molecules are outputted as a csv and gcd file.
+Then, components with less than 10 heavy atoms are dropped, which will include waters, halide ions, and other non-drug-like components. Lipinski's Rules are only applicable to small molecule organic compounds, not metals, so this will reduce unnecessary computational power when molecular properties (including hydrogen bond acceptor count (HBA), calculates hydrogen bond donor count (HBD), Wildman-Crippen logP (logP), and molecular weight (MW)) are calculated using the RDKit toolkit. Entries for which molecular properties are unable to be calculated are deposited into a separate CSV file. To the successfully parsed entries, Lipinski's Rule of 5 are applied by assigning a binary digit to the molecular property entry. 
 
 The resulting dataset is analysed, with results visualised as histograms, a Venn diagram, and an UpSet plot. 
+
+Additionally, entries satisfying 3 and 4 rules are analysed, with CCDC compatible GCD files generated. 
 
 ## Dependencies
 
