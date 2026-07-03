@@ -29,7 +29,7 @@ Overall, this dataset will assist with the acceleration of hit-to-lead discovery
 
 ## Code Architecture
 
-<img width="492" height="749" alt="Flow Chart README" src="https://github.com/user-attachments/assets/3cee6daa-7395-49c1-9f0a-f95c2f2edae3" />
+<img width="489" height="663" alt="Flow Chart README" src="https://github.com/user-attachments/assets/4bcec0c5-db0c-498f-9e76-9d66de035662" />
 
 The first part of the code requires the user to select what dataset to extract from the CCDC by uncommenting/commenting the relevant lines of code. The code has been written so no other user input is required. 
 
